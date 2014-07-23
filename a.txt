@@ -1,0 +1,652 @@
+激活Internet连接 (服务器和已建立连接的)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 qheldiv-Inspiron:domain *:*                     LISTEN     
+tcp        0      0 localhost:8086          *:*                     LISTEN     
+tcp        0      0 localhost:ipp           *:*                     LISTEN     
+tcp        0      0 localhost:8087          *:*                     LISTEN     
+tcp        0      0 bogon:51792             hkg03s13-in-f16.1:https TIME_WAIT  
+tcp        0      0 bogon:45573             hkg03s13-in-f24.1:https TIME_WAIT  
+tcp        0      0 bogon:51787             hkg03s13-in-f16.1:https TIME_WAIT  
+tcp        0      0 localhost:8087          localhost:45308         TIME_WAIT  
+tcp        1      1 bogon:42130             203.208.46.138:http     LAST_ACK   
+tcp        0      0 bogon:51775             hkg03s13-in-f16.1:https TIME_WAIT  
+tcp        0      0 bogon:46730             203.208.46.132:https    TIME_WAIT  
+tcp        0      0 bogon:43400             211.147.4.31:http       ESTABLISHED
+tcp        0      1 bogon:59636             tf-in-f83.1e100.n:https FIN_WAIT1  
+tcp        0      0 bogon:39011             203.208.46.136:https    TIME_WAIT  
+tcp        0      0 bogon:51759             hkg03s13-in-f16.1:https TIME_WAIT  
+tcp        0      0 bogon:51632             203.208.46.133:https    TIME_WAIT  
+tcp        0      0 localhost:8087          localhost:45097         ESTABLISHED
+tcp        0      0 bogon:45567             hkg03s13-in-f24.1:https TIME_WAIT  
+tcp        1      1 bogon:59106             203.208.46.134:http     LAST_ACK   
+tcp        0      0 bogon:47670             74.125.204.:xmpp-client ESTABLISHED
+tcp        0      0 localhost:45097         localhost:8087          ESTABLISHED
+tcp        0      0 bogon:39280             203.208.46.134:https    TIME_WAIT  
+tcp        0      0 bogon:45568             hkg03s13-in-f24.1:https ESTABLISHED
+tcp        0      0 localhost:8087          localhost:45342         TIME_WAIT  
+tcp        0      0 bogon:45561             hkg03s13-in-f24.1:https TIME_WAIT  
+tcp        0      0 localhost:8087          localhost:45419         TIME_WAIT  
+tcp        0      0 localhost:8087          localhost:45404         TIME_WAIT  
+tcp        0      1 bogon:40633             hkg03s15-in-f19.1:https SYN_SENT   
+tcp        0      0 localhost:8087          localhost:45431         ESTABLISHED
+tcp        0      1 bogon:60103             hkg03s13-in-f17.1:https SYN_SENT   
+tcp        0      1 bogon:60233             hkg03s13-in-f18.1:https SYN_SENT   
+tcp        0      0 bogon:45567             hkg03s13-in-f24.1:https TIME_WAIT  
+tcp        1      1 bogon:59106             203.208.46.134:http     LAST_ACK   
+tcp        0      1 bogon:39788             hkg03s13-in-f23.1:https SYN_SENT   
+tcp        0      1 bogon:50230             hkg03s16-in-f23.1:https SYN_SENT   
+tcp        0      1 bogon:60254             hkg03s13-in-f18.1:https SYN_SENT   
+tcp        0      0 bogon:47670             74.125.204.:xmpp-client ESTABLISHED
+tcp        0      1 bogon:33580             hkg03s09-in-f19.1:https SYN_SENT   
+tcp        0      0 localhost:45097         localhost:8087          ESTABLISHED
+tcp        0      0 bogon:39280             203.208.46.134:https    TIME_WAIT  
+tcp        0      1 bogon:41741             hkg03s15-in-f17.1:https SYN_SENT   
+tcp        0      0 bogon:45568             hkg03s13-in-f24.1:https ESTABLISHED
+tcp        0      0 bogon:45561             hkg03s13-in-f24.1:https TIME_WAIT  
+tcp        0      0 localhost:8087          localhost:45421         ESTABLISHED
+tcp        0      0 localhost:45431         localhost:8087          ESTABLISHED
+tcp        0      1 bogon:50473             hkg03s15-in-f16.1:https SYN_SENT   
+tcp        0      0 localhost:8087          localhost:45492         ESTABLISHED
+tcp        0      1 bogon:51471             hkg03s09-in-f20.1:https SYN_SENT   
+tcp        0      1 bogon:51475             tb-in-f19.1e100.n:https SYN_SENT   
+tcp        0      1 bogon:52196             hkg03s09-in-f18.1:https SYN_SENT   
+tcp        0      0 localhost:8087          localhost:45419         TIME_WAIT  
+tcp        0      0 localhost:45426         localhost:8087          ESTABLISHED
+tcp        0      0 localhost:45492         localhost:8087          ESTABLISHED
+tcp        0      1 bogon:42584             tf-in-f17.1e100.n:https SYN_SENT   
+tcp        0      0 localhost:8087          localhost:45404         TIME_WAIT  
+tcp        0      1 bogon:40633             hkg03s15-in-f19.1:https SYN_SENT   
+tcp        0      0 localhost:8087          localhost:45431         ESTABLISHED
+tcp        0      1 bogon:60103             hkg03s13-in-f17.1:https SYN_SENT   
+tcp        0      1 bogon:60233             hkg03s13-in-f18.1:https SYN_SENT   
+tcp6       0      0 [::]:http               [::]:*                  LISTEN     
+tcp6       0      0 ip6-localhost:ipp       [::]:*                  LISTEN     
+udp        0      0 *:mdns                  *:*                                
+udp        0      0 *:36643                 *:*                                
+udp        0      0 *:24386                 *:*                                
+udp        0      0 qheldiv-Inspiron:domain *:*                                
+udp        0      0 *:bootpc                *:*                                
+udp6       0      0 [::]:10367              [::]:*                             
+udp6       0      0 [::]:53418              [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+活跃的UNIX域套接字 (服务器和已建立连接的)
+Proto RefCnt Flags       Type       State         I-Node   路径
+unix  2      [ ACC ]     流        LISTENING     15103    /run/user/qheldiv/keyring-cnr9NX/control
+unix  2      [ ACC ]     流        LISTENING     14300    @/tmp/.ICE-unix/1975
+unix  2      [ ACC ]     流        LISTENING     13097    @/tmp/dbus-l1hoEEMwUU
+unix  19     [ ]         数据报                12308    /dev/log
+unix  2      [ ACC ]     流        LISTENING     12314    /var/run/sdp
+unix  2      [ ACC ]     流        LISTENING     6467     @/com/ubuntu/upstart
+unix  2      [ ACC ]     流        LISTENING     12489    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     流        LISTENING     14223    /tmp/ssh-SdwHX71L6aMb/agent.1975
+unix  2      [ ACC ]     流        LISTENING     14301    /tmp/.ICE-unix/1975
+unix  2      [ ACC ]     流        LISTENING     9800     /var/run/acpid.socket
+unix  2      [ ]         数据报                14670    /var/run/wpa_supplicant/wlan0
+unix  2      [ ACC ]     流        LISTENING     15612    /tmp/.com.google.Chrome.debaAK/SingletonSocket
+unix  2      [ ACC ]     流        LISTENING     13103    @/tmp/dbus-YXRDDKq8Cj
+unix  2      [ ACC ]     流        LISTENING     78905    /tmp/6F52D9EFA968CAACB0FF64EF6A84C4BA6E63322F.28.0.1500.71_service_ipc
+unix  2      [ ACC ]     流        LISTENING     12488    @/tmp/.X11-unix/X0
+unix  2      [ ACC ]     流        LISTENING     12145    /run/user/qheldiv/keyring-cnr9NX/gpg
+unix  2      [ ACC ]     流        LISTENING     150155   /var/run/cups/cups.sock
+unix  2      [ ACC ]     流        LISTENING     15246    /run/user/qheldiv/keyring-cnr9NX/ssh
+unix  2      [ ACC ]     流        LISTENING     15248    /run/user/qheldiv/keyring-cnr9NX/pkcs11
+unix  2      [ ACC ]     SEQPACKET  LISTENING     6548     /run/udev/control
+unix  2      [ ACC ]     流        LISTENING     12225    /run/user/qheldiv/pulse/native
+unix  2      [ ]         流                      78906    @6F52D9EFA968CAACB0FF64EF6A84C4BA6E63322F._service_running
+unix  2      [ ACC ]     流        LISTENING     9677     /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     流        LISTENING     159696   /var/run/apache2/cgisock.13195
+unix  2      [ ACC ]     流        LISTENING     13114    @/tmp/dbus-kHh3OyKC
+unix  2      [ ACC ]     流        LISTENING     15191    @/tmp/dbus-TQmWx6mQmg
+unix  2      [ ACC ]     流        LISTENING     9198     /var/run/avahi-daemon/socket
+unix  3      [ ]         流        已连接     16302    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17865    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     15258    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     21678    
+unix  3      [ ]         流        已连接     16299    
+unix  3      [ ]         流        已连接     13204    
+unix  3      [ ]         流        已连接     12305    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     16470    
+unix  3      [ ]         流        已连接     13225    
+unix  3      [ ]         流        已连接     14953    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     12472    
+unix  2      [ ]         数据报                9189     
+unix  3      [ ]         流        已连接     18158    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     89589    
+unix  3      [ ]         流        已连接     18095    @/dbus-vfs-daemon/socket-6zLXaVOA
+unix  3      [ ]         流        已连接     12079    @/tmp/dbus-kHh3OyKC
+unix  3      [ ]         流        已连接     45923    
+unix  3      [ ]         流        已连接     26626    
+unix  3      [ ]         流        已连接     17221    /run/user/qheldiv/keyring-cnr9NX/pkcs11
+unix  3      [ ]         流        已连接     12245    
+unix  3      [ ]         SEQPACKET  已连接     67656    
+unix  3      [ ]         流        已连接     12981    
+unix  2      [ ]         数据报                11403    
+unix  3      [ ]         流        已连接     89586    
+unix  3      [ ]         流        已连接     16064    
+unix  3      [ ]         流        已连接     12312    
+unix  3      [ ]         流        已连接     18841    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     16437    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     15413    
+unix  3      [ ]         流        已连接     19236    
+unix  3      [ ]         流        已连接     18150    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     12805    
+unix  3      [ ]         流        已连接     19215    
+unix  3      [ ]         流        已连接     16002    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     11778    
+unix  3      [ ]         流        已连接     17012    
+unix  3      [ ]         流        已连接     15549    
+unix  3      [ ]         流        已连接     15252    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     141525   
+unix  3      [ ]         流        已连接     15234    
+unix  3      [ ]         流        已连接     90753    
+unix  3      [ ]         流        已连接     15683    
+unix  3      [ ]         流        已连接     15533    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     16429    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     15494    
+unix  3      [ ]         流        已连接     91171    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     78902    
+unix  3      [ ]         SEQPACKET  已连接     15695    
+unix  3      [ ]         流        已连接     19223    
+unix  3      [ ]         流        已连接     15560    
+unix  3      [ ]         流        已连接     17433    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     15493    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     19475    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     17255    
+unix  3      [ ]         流        已连接     16462    
+unix  3      [ ]         流        已连接     14270    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17329    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     26627    
+unix  3      [ ]         流        已连接     15386    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15205    
+unix  3      [ ]         流        已连接     9200     
+unix  3      [ ]         流        已连接     79043    
+unix  3      [ ]         流        已连接     18837    
+unix  3      [ ]         流        已连接     17423    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15301    
+unix  3      [ ]         流        已连接     130156   @/tmp/dbus-kHh3OyKC
+unix  3      [ ]         流        已连接     16065    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     12378    
+unix  3      [ ]         流        已连接     48023    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     19190    
+unix  3      [ ]         流        已连接     15233    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     22310    
+unix  3      [ ]         流        已连接     16448    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     18920    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     16426    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     16277    
+unix  3      [ ]         流        已连接     18954    
+unix  3      [ ]         流        已连接     17915    
+unix  3      [ ]         流        已连接     9579     @/com/ubuntu/upstart
+unix  3      [ ]         流        已连接     91167    @/tmp/.ICE-unix/1975
+unix  3      [ ]         流        已连接     17086    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     11605    
+unix  3      [ ]         流        已连接     18784    @/dbus-vfs-daemon/socket-N94et431
+unix  3      [ ]         流        已连接     12282    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18949    
+unix  3      [ ]         流        已连接     17911    
+unix  3      [ ]         流        已连接     15309    @/tmp/.ICE-unix/1975
+unix  3      [ ]         流        已连接     45835    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     19684    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18387    
+unix  3      [ ]         流        已连接     15206    
+unix  3      [ ]         流        已连接     128604   @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     18539    
+unix  3      [ ]         流        已连接     15550    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     78894    
+unix  3      [ ]         流        已连接     18152    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     14293    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     91166    
+unix  3      [ ]         流        已连接     18991    
+unix  3      [ ]         流        已连接     17225    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     14288    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18960    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     16427    
+unix  3      [ ]         流        已连接     15242    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17331    
+unix  3      [ ]         流        已连接     17876    
+unix  2      [ ]         数据报                12263    
+unix  2      [ ]         数据报                13675    
+unix  3      [ ]         流        已连接     21673    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     168707   
+unix  3      [ ]         流        已连接     77641    
+unix  3      [ ]         流        已连接     11410    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     17297    
+unix  3      [ ]         流        已连接     12117    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     13130    
+unix  3      [ ]         流        已连接     22945    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     9723     
+unix  3      [ ]         流        已连接     17330    
+unix  3      [ ]         流        已连接     18963    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     17868    
+unix  3      [ ]         流        已连接     130149   @/tmp/.ICE-unix/1975
+unix  3      [ ]         流        已连接     18110    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     13135    
+unix  3      [ ]         流        已连接     14224    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     16430    
+unix  2      [ ]         数据报                12484    
+unix  3      [ ]         数据报                8494     
+unix  3      [ ]         流        已连接     15495    
+unix  3      [ ]         流        已连接     89704    @/tmp/dbus-kHh3OyKC
+unix  3      [ ]         流        已连接     19188    
+unix  3      [ ]         流        已连接     13235    
+unix  3      [ ]         流        已连接     76623    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     18513    
+unix  3      [ ]         流        已连接     15585    
+unix  3      [ ]         流        已连接     48658    
+unix  3      [ ]         流        已连接     18167    /run/user/qheldiv/pulse/native
+unix  3      [ ]         流        已连接     17319    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18404    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17063    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     91165    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     13205    @/tmp/dbus-kHh3OyKC
+unix  3      [ ]         流        已连接     17238    
+unix  3      [ ]         流        已连接     16465    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     14109    
+unix  3      [ ]         流        已连接     13417    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     18171    
+unix  3      [ ]         流        已连接     16315    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15179    
+unix  3      [ ]         流        已连接     11402    
+unix  3      [ ]         流        已连接     45924    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     9194     
+unix  3      [ ]         流        已连接     77654    
+unix  2      [ ]         数据报                12980    
+unix  3      [ ]         流        已连接     18772    
+unix  3      [ ]         流        已连接     11407    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     9700     /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     17228    
+unix  3      [ ]         流        已连接     15681    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15302    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     12716    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     18151    
+unix  3      [ ]         流        已连接     14853    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     91162    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     15194    
+unix  3      [ ]         流        已连接     25844    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17465    
+unix  3      [ ]         流        已连接     16436    
+unix  3      [ ]         流        已连接     16947    
+unix  3      [ ]         流        已连接     11388    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     155047   
+unix  3      [ ]         流        已连接     79044    
+unix  2      [ ]         流        已连接     168386   
+unix  3      [ ]         流        已连接     19203    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     18381    
+unix  3      [ ]         SEQPACKET  已连接     15694    
+unix  3      [ ]         流        已连接     15235    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     13140    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     19977    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     15677    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     17425    
+unix  3      [ ]         流        已连接     15303    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     12220    
+unix  2      [ ]         数据报                12828    
+unix  3      [ ]         流        已连接     17271    
+unix  3      [ ]         流        已连接     12300    
+unix  3      [ ]         流        已连接     91170    
+unix  3      [ ]         流        已连接     170452   
+unix  3      [ ]         流        已连接     129339   
+unix  3      [ ]         流        已连接     18778    
+unix  3      [ ]         流        已连接     20495    
+unix  3      [ ]         流        已连接     16948    
+unix  3      [ ]         流        已连接     13203    
+unix  3      [ ]         流        已连接     16290    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15589    
+unix  3      [ ]         流        已连接     18438    
+unix  3      [ ]         流        已连接     130165   @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     15176    
+unix  3      [ ]         流        已连接     16978    @/tmp/dbus-kHh3OyKC
+unix  3      [ ]         流        已连接     17422    
+unix  3      [ ]         流        已连接     12086    
+unix  3      [ ]         流        已连接     19484    
+unix  3      [ ]         流        已连接     13244    
+unix  3      [ ]         流        已连接     18091    
+unix  3      [ ]         流        已连接     15170    
+unix  3      [ ]         流        已连接     18967    
+unix  3      [ ]         流        已连接     13306    
+unix  3      [ ]         流        已连接     12244    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     128595   
+unix  3      [ ]         流        已连接     117105   
+unix  3      [ ]         流        已连接     17058    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     8445     
+unix  3      [ ]         流        已连接     17212    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     47530    
+unix  3      [ ]         流        已连接     46510    
+unix  3      [ ]         流        已连接     68702    @/tmp/dbus-kHh3OyKC
+unix  3      [ ]         流        已连接     17061    
+unix  3      [ ]         SEQPACKET  已连接     12259    
+unix  3      [ ]         流        已连接     15675    
+unix  3      [ ]         流        已连接     90754    
+unix  3      [ ]         流        已连接     18205    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     18948    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     16526    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     13246    
+unix  3      [ ]         流        已连接     18511    @/dbus-vfs-daemon/socket-7w7S5tWL
+unix  3      [ ]         流        已连接     16431    
+unix  3      [ ]         流        已连接     8431     
+unix  3      [ ]         流        已连接     17246    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     91348    
+unix  3      [ ]         流        已连接     22309    
+unix  3      [ ]         流        已连接     15676    
+unix  3      [ ]         流        已连接     14296    
+unix  3      [ ]         流        已连接     77628    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17038    
+unix  3      [ ]         流        已连接     12115    
+unix  3      [ ]         流        已连接     9717     /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     17296    
+unix  3      [ ]         流        已连接     13136    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     46813    @/tmp/dbus-kHh3OyKC
+unix  3      [ ]         流        已连接     19477    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     16076    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     16537    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     126808   @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18959    
+unix  3      [ ]         流        已连接     13299    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     13226    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     16528    
+unix  3      [ ]         流        已连接     12097    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     21074    
+unix  3      [ ]         流        已连接     13456    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     22308    
+unix  3      [ ]         流        已连接     16188    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     16491    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15203    
+unix  3      [ ]         流        已连接     12123    
+unix  3      [ ]         流        已连接     17097    
+unix  3      [ ]         流        已连接     12066    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     150626   /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     46514    
+unix  3      [ ]         流        已连接     18962    
+unix  3      [ ]         流        已连接     15288    /run/user/qheldiv/pulse/native
+unix  3      [ ]         流        已连接     129326   
+unix  3      [ ]         流        已连接     76622    
+unix  3      [ ]         流        已连接     13305    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     16536    
+unix  3      [ ]         流        已连接     11808    
+unix  3      [ ]         流        已连接     19187    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18111    
+unix  3      [ ]         流        已连接     12119    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18422    
+unix  3      [ ]         流        已连接     16071    
+unix  3      [ ]         流        已连接     15241    
+unix  3      [ ]         流        已连接     15039    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     17901    @/tmp/dbus-kHh3OyKC
+unix  3      [ ]         流        已连接     14268    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18153    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     12713    
+unix  3      [ ]         流        已连接     68701    
+unix  3      [ ]         流        已连接     16538    @/tmp/.X11-unix/X0
+unix  3      [ ]         SEQPACKET  已连接     12262    
+unix  3      [ ]         流        已连接     20201    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     16318    
+unix  3      [ ]         流        已连接     19197    @/tmp/dbus-TQmWx6mQmg
+unix  2      [ ]         数据报                9799     
+unix  3      [ ]         流        已连接     77655    
+unix  3      [ ]         流        已连接     153102   
+unix  3      [ ]         流        已连接     13199    
+unix  2      [ ]         数据报                11399    
+unix  3      [ ]         流        已连接     16488    
+unix  2      [ ]         数据报                143336   
+unix  3      [ ]         流        已连接     15260    
+unix  3      [ ]         流        已连接     14230    
+unix  3      [ ]         流        已连接     19259    
+unix  2      [ ]         数据报                12813    
+unix  3      [ ]         流        已连接     89587    
+unix  3      [ ]         流        已连接     18773    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15195    
+unix  3      [ ]         流        已连接     151563   
+unix  3      [ ]         流        已连接     18452    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     12228    
+unix  3      [ ]         流        已连接     13207    
+unix  3      [ ]         流        已连接     11704    
+unix  3      [ ]         流        已连接     45920    
+unix  3      [ ]         流        已连接     18352    
+unix  3      [ ]         流        已连接     13139    
+unix  3      [ ]         流        已连接     149665   
+unix  3      [ ]         流        已连接     22024    
+unix  3      [ ]         流        已连接     16085    /run/user/qheldiv/keyring-cnr9NX/pkcs11
+unix  3      [ ]         流        已连接     17434    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15531    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     15278    
+unix  3      [ ]         流        已连接     12299    
+unix  3      [ ]         流        已连接     17459    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     11779    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     45833    
+unix  3      [ ]         流        已连接     17016    
+unix  3      [ ]         流        已连接     12213    
+unix  3      [ ]         流        已连接     21075    
+unix  3      [ ]         流        已连接     16298    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     19202    
+unix  3      [ ]         流        已连接     15250    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     128605   @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     19290    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     9195     
+unix  3      [ ]         流        已连接     17092    @/tmp/dbus-YXRDDKq8Cj
+unix  2      [ ]         流        已连接     12471    
+unix  3      [ ]         流        已连接     79041    
+unix  3      [ ]         流        已连接     18795    
+unix  3      [ ]         流        已连接     15541    
+unix  3      [ ]         流        已连接     15296    
+unix  3      [ ]         流        已连接     19217    
+unix  3      [ ]         流        已连接     17239    @/tmp/dbus-YXRDDKq8Cj
+unix  2      [ ]         数据报                11806    
+unix  3      [ ]         流        已连接     166599   
+unix  3      [ ]         流        已连接     13304    
+unix  3      [ ]         流        已连接     16291    
+unix  3      [ ]         流        已连接     126806   
+unix  3      [ ]         流        已连接     16464    
+unix  3      [ ]         流        已连接     14275    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     151562   
+unix  3      [ ]         流        已连接     17062    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     30112    
+unix  3      [ ]         流        已连接     16216    
+unix  3      [ ]         流        已连接     18953    
+unix  3      [ ]         流        已连接     17900    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     46511    @/tmp/.ICE-unix/1975
+unix  3      [ ]         流        已连接     15167    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     129328   @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17421    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     7653     @/com/ubuntu/upstart
+unix  3      [ ]         流        已连接     45899    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18092    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     12344    
+unix  3      [ ]         流        已连接     14220    
+unix  3      [ ]         流        已连接     12530    /var/run/acpid.socket
+unix  3      [ ]         流        已连接     63047    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     16278    
+unix  3      [ ]         流        已连接     15592    
+unix  3      [ ]         SEQPACKET  已连接     12258    
+unix  3      [ ]         流        已连接     25826    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17039    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     13138    
+unix  3      [ ]         流        已连接     18970    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     11586    
+unix  3      [ ]         流        已连接     18836    @/dbus-vfs-daemon/socket-oFfqPM18
+unix  3      [ ]         流        已连接     14231    
+unix  3      [ ]         流        已连接     6499     @/com/ubuntu/upstart
+unix  3      [ ]         流        已连接     150160   
+unix  3      [ ]         流        已连接     16424    
+unix  3      [ ]         流        已连接     12485    
+unix  3      [ ]         流        已连接     25823    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     13223    
+unix  3      [ ]         流        已连接     129332   
+unix  3      [ ]         流        已连接     13104    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     168706   
+unix  3      [ ]         流        已连接     19186    
+unix  3      [ ]         流        已连接     167734   /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     169330   
+unix  3      [ ]         流        已连接     16527    
+unix  3      [ ]         流        已连接     15196    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     12634    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     157153   
+unix  3      [ ]         流        已连接     117104   
+unix  3      [ ]         流        已连接     17064    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17435    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18378    
+unix  3      [ ]         流        已连接     15204    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     17067    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18947    
+unix  3      [ ]         流        已连接     17910    
+unix  3      [ ]         流        已连接     16428    
+unix  3      [ ]         流        已连接     13455    
+unix  3      [ ]         流        已连接     45834    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     13241    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     19189    
+unix  3      [ ]         流        已连接     18515    
+unix  3      [ ]         流        已连接     11488    
+unix  3      [ ]         流        已连接     130166   
+unix  3      [ ]         流        已连接     16192    
+unix  3      [ ]         流        已连接     16535    
+unix  3      [ ]         流        已连接     13137    @/tmp/dbus-kHh3OyKC
+unix  3      [ ]         流        已连接     48655    
+unix  3      [ ]         流        已连接     18172    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     17068    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18112    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     15186    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15166    
+unix  3      [ ]         流        已连接     14299    
+unix  3      [ ]         流        已连接     129327   @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     20497    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     16077    
+unix  3      [ ]         流        已连接     17916    
+unix  3      [ ]         流        已连接     13134    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     18157    
+unix  3      [ ]         流        已连接     13240    
+unix  3      [ ]         流        已连接     141524   
+unix  3      [ ]         流        已连接     19702    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     19476    
+unix  3      [ ]         流        已连接     16052    
+unix  3      [ ]         流        已连接     12183    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     168680   /run/user/qheldiv/pulse/native
+unix  3      [ ]         流        已连接     18489    
+unix  3      [ ]         流        已连接     153103   
+unix  3      [ ]         流        已连接     89588    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     13200    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     78903    
+unix  3      [ ]         流        已连接     16471    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         SEQPACKET  已连接     12261    
+unix  3      [ ]         流        已连接     18392    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     15588    
+unix  3      [ ]         流        已连接     14941    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     169498   @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     16055    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15177    
+unix  3      [ ]         流        已连接     9714     /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     18149    
+unix  3      [ ]         流        已连接     149666   
+unix  3      [ ]         流        已连接     17300    /var/run/dbus/system_bus_socket
+unix  2      [ ]         数据报                17429    
+unix  3      [ ]         流        已连接     15438    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     19237    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17220    
+unix  3      [ ]         流        已连接     15251    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     48020    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     18707    
+unix  3      [ ]         流        已连接     15582    
+unix  3      [ ]         流        已连接     15414    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     157152   
+unix  3      [ ]         SEQPACKET  已连接     67655    
+unix  3      [ ]         流        已连接     17015    
+unix  3      [ ]         流        已连接     15283    @/tmp/.X11-unix/X0
+unix  2      [ ]         数据报                12311    
+unix  3      [ ]         流        已连接     18838    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     17466    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15548    
+unix  3      [ ]         流        已连接     17424    
+unix  2      [ ]         流        已连接     160065   
+unix  3      [ ]         流        已连接     17281    
+unix  3      [ ]         流        已连接     130152   @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     15279    @/tmp/dbus-kHh3OyKC
+unix  3      [ ]         流        已连接     46513    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     16072    @/tmp/dbus-YXRDDKq8Cj
+unix  2      [ ]         数据报                16447    
+unix  3      [ ]         流        已连接     12223    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     19978    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18447    
+unix  3      [ ]         流        已连接     17231    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15164    
+unix  3      [ ]         流        已连接     11875    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     22342    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     12083    
+unix  3      [ ]         流        已连接     18779    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     16449    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     17264    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     79042    /tmp/6F52D9EFA968CAACB0FF64EF6A84C4BA6E63322F.28.0.1500.71_service_ipc
+unix  3      [ ]         流        已连接     18448    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     12236    @/tmp/.ICE-unix/1975
+unix  3      [ ]         流        已连接     19216    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     17254    
+unix  3      [ ]         流        已连接     13184    
+unix  3      [ ]         流        已连接     11352    
+unix  3      [ ]         流        已连接     28434    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18754    
+unix  3      [ ]         流        已连接     48022    
+unix  3      [ ]         流        已连接     17214    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     126807   
+unix  3      [ ]         流        已连接     12255    
+unix  3      [ ]         流        已连接     13098    
+unix  3      [ ]         流        已连接     17090    
+unix  3      [ ]         流        已连接     13531    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     9575     
+unix  3      [ ]         流        已连接     18109    
+unix  3      [ ]         流        已连接     15232    
+unix  3      [ ]         流        已连接     9708     /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     18968    
+unix  3      [ ]         流        已连接     12491    
+unix  3      [ ]         流        已连接     128593   
+unix  3      [ ]         流        已连接     63046    
+unix  3      [ ]         流        已连接     16432    
+unix  3      [ ]         流        已连接     17229    @/tmp/.X11-unix/X0
+unix  3      [ ]         数据报                8493     
+unix  3      [ ]         流        已连接     167733   
+unix  3      [ ]         流        已连接     15226    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     47469    
+unix  3      [ ]         流        已连接     22602    
+unix  3      [ ]         流        已连接     18540    
+unix  3      [ ]         流        已连接     15591    
+unix  3      [ ]         流        已连接     13129    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     12095    
+unix  3      [ ]         流        已连接     17047    
+unix  3      [ ]         流        已连接     11510    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     18985    
+unix  3      [ ]         流        已连接     15308    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     12120    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     13463    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     17247    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     16054    
+unix  3      [ ]         流        已连接     18950    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     15693    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     16425    @/tmp/dbus-TQmWx6mQmg
+unix  3      [ ]         流        已连接     11409    
+unix  3      [ ]         流        已连接     128591   
+unix  2      [ ]         数据报                16092    
+unix  3      [ ]         流        已连接     166600   
+unix  3      [ ]         流        已连接     22605    
+unix  3      [ ]         流        已连接     18388    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     12116    
+unix  3      [ ]         流        已连接     13131    
+unix  3      [ ]         流        已连接     18418    /run/user/qheldiv/keyring-cnr9NX/pkcs11
+unix  3      [ ]         流        已连接     16473    /run/user/qheldiv/pulse/native
+unix  3      [ ]         流        已连接     16312    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     15551    
+unix  2      [ ]         流        已连接     169358   
+unix  3      [ ]         流        已连接     77642    
+unix  3      [ ]         流        已连接     16075    
+unix  3      [ ]         流        已连接     18961    
+unix  3      [ ]         流        已连接     15410    
+unix  3      [ ]         流        已连接     12633    
+unix  3      [ ]         流        已连接     155048   
+unix  3      [ ]         流        已连接     17213    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     13300    @/tmp/.X11-unix/X0
+unix  3      [ ]         流        已连接     18346    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     18514    @/dbus-vfs-daemon/socket-OAPKOqSh
+unix  3      [ ]         流        已连接     15165    
+unix  3      [ ]         流        已连接     13399    /var/run/dbus/system_bus_socket
+unix  3      [ ]         流        已连接     15586    
+unix  3      [ ]         流        已连接     15304    @/tmp/dbus-YXRDDKq8Cj
+unix  3      [ ]         流        已连接     47588    @/tmp/dbus-YXRDDKq8Cj
+unix  2      [ ]         数据报                17399    
+unix  3      [ ]         流        已连接     17869    
+unix  2      [ ]         数据报                12328    
+unix  3      [ ]         流        已连接     18964    
+unix  3      [ ]         流        已连接     13249    
